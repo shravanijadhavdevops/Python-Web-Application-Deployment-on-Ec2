@@ -7,42 +7,42 @@ This project demonstrates how to deploy a Python web application on a cloud serv
 The goal of this project is to gain hands-on experience with cloud computing, Linux commands, and Python environment setup.
 
 ## Architecture Diagram
-![alt text](<imgs/architecture diagarm.jpeg>)
+![alt text](<imgs/architecturediagarm.jpeg>)
 ## Steps I Followed
 ## 1.launching an ec2 instance 
- ![alt text](<imgs/lunching ec2.png>)
+ ![alt text](<imgs/lunching_ec2.png>)
  ## 2.Connect using ssh
  ssh -i your-key.pem ec2-user@your-public-ip
- ![alt text](<imgs/connect through ssh.png>)
+ ![alt text](<imgs/connect_through_ssh.png>)
  ## 3.Installation of PYTHON
  sudo yum update -y<br>
  sudo yum install python3 -y
- ![alt text](<imgs/installation of python.png>)
+ ![alt text](<imgs/installation_of_python.png>)
  * verify version:<br>
  python3 --version
  ## 4.Installation of pip
  sudo yum install python3-pip -y
- ![alt text](<imgs/instalation of pip.png>)
+ ![alt text](<imgs/instalation_of_pip.png>)
  * Verify pip:<br>
  pip3 --version
  ## 5.Clone the Repository
  git clone url<br>
  ![alt text](<imgs/clone from github.png>)
-cd pythonapp![alt text](<imgs/goes inside pythoneapp through cd.png>)
+cd pythonapp![alt text](<imgs/goes_inside_pythoneapp_through_cd.png>)
  ## 6.Create Virtual Environment
  python3 -m venv myenv 
- ![alt text](<imgs/create virtual environment.png>)
+ ![alt text](<imgs/create_virtual_environment.png>)
  ## 7.Activate virtual environment
  bash myenv/bin/activates
- ![alt text](<imgs/run virtual environment.png>)
+ ![alt text](<imgs/run_virtual_environment.png>)
  ## 8.Install dependencies
  pip install -r requirements.txt<br>
  python3 app.py
-  ![alt text](<imgs/install dependency.png>)
+  ![alt text](<imgs/install_dependency.png>)
   ## 9.Access the Application
   public ip : port<br>
   port no -> 5000
-  ![alt text](<imgs/access of web.png>)
+  ![alt text](<imgs/access_of_web.png>)
   ## Key Features
 * Deployment on AWS EC2
 * Complete setup from scratch
